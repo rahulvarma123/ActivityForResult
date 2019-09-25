@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FirstActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/tvnum1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#ff0000"
+        android:text="Enter the First Number"
+        android:textColor="#ffffff"
+        android:layout_marginLeft="16dp"
+        android:padding="16dp"
+        android:textSize="24sp"
+        android:layout_marginTop="40dp"/>
+    <EditText
+        android:id="@+id/et1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00ff00"
+        android:textSize="24sp"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"/>
+    <TextView
+        android:id="@+id/tvnum2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textColor="#ffffff"
+        android:background="#ff0000"
+        android:layout_marginLeft="16dp"
+        android:padding="16dp"
+        android:layout_marginTop="32dp"
+        android:text="Enter the Second Number"/>
+    <EditText
+        android:id="@+id/et2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00ff00"
+        android:textSize="24sp"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"/>
+
+    <TextView
+        android:id="@+id/tvres"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="32dp"
+        android:textColor="#ffffff"
+        android:background="#ff0000"
+        android:padding="16dp"
+        android:text="Result"
+        android:textSize="24sp" />
+    <EditText
+        android:id="@+id/et3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:background="#00ff00"
+        android:textSize="24sp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"/>
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="48dp"
+        android:textSize="32sp"
+        android:background="#0000ff"
+        android:textColor="#ffffff"
+        android:textAllCaps="false"
+        android:padding="16dp"
+        android:text="Sum"/>
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="#0000ff"
+        android:textColor="#ffffff"
+        android:layout_marginTop="48dp"
+        android:textSize="32sp"
+        android:textAllCaps="false"
+        android:padding="16dp"
+        android:text="Difference"/>
+
+</LinearLayout>
+
+</ScrollView>
